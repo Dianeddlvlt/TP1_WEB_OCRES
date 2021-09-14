@@ -4,9 +4,8 @@
         <meta charset="utf-8" />
         <title>CV Diane de Dieuleveult</title>
     </head>
-
     <body>
-    	<header>
+        <header>
             <nav>
                 <a href ="index.html"><input type="submit" id='submit' value='MENU'></a>
                 <a href ="experiences.html"><input type="submit" id='submit' value='EXPERIENCES'></a>
@@ -15,29 +14,26 @@
                 <a href ="centres_d_interet.html"><input type="submit" id='submit' value='CENTRES D INTERET'></a>
                 <a href ="me_contacter.html"><input type="submit" id='submit' value='ME CONTACTER'></a>           
             </nav>
+            <h1>ME CONTACTER</h1> 
         </header>
     </body>
 
-    <aside>
-        <div>
-            <p>
-                Etudiante en M1 à l'ECE Paris<br /> 
-                A LA RECHERCHE D’UN STAGE DE 4 MOIS À PARTIR DU 18 AVRIL 2022
-            </p> 
-        </div>
-    </aside>
-
     <main>
-        <article>
-            <header>
-                <img src="images/photo_ID.jpg" width="200" height="250"alt="Photo de Diane" /><br />
-                Diane de Dieuleveult 
-            </header>
-            <p> 
-                21 ans <br />
-                Permis B <br />
-                75 000  Paris
-            </p> 
-        </article>
+        <form>
+            <div class="nom">
+                <label>Nom</label><br>
+                <input type="text" name="username" required> 
+            </div>
+            <div class="emailBox">
+                <label>Email</label><br>
+                <input type="email" size="64" maxLength="64" required>
+            </div>
+           
+            <div class="messageBox">
+                <label>Message</label><br>
+                <textarea id="message" cols="80" rows="8" required></textarea>
+            </div>
+                <input type="submit" value="Envoyer">
+           </form>
     </main>
 </html>
