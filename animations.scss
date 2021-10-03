@@ -1,0 +1,17 @@
+.btn {
+    background:pink;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 1.85rem 3rem;
+    border-radius: 10rem;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(2);
+    }
+}
+
+/*.box {
+    transition: transform 330ms ease-in-out;
+}*/

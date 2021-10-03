@@ -2,45 +2,74 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
         <title>CV Diane de Dieuleveult</title>
     </head>
 
     <body>
-        <header> 
-            <nav>
-                <a href ="index.html"><input type="submit" id='submit' value='MENU'></a>
-                <a href ="experiences.html"><input type="submit" id='submit' value='EXPERIENCES'></a>
-                <a href ="formations.html"><input type="submit" id='submit' value='FORMATION'></a>
-                <a href ="competences.html"><input type="submit" id='submit' value='COMPETENCES'></a> 
-                <a href ="centres_d_interet.html"><input type="submit" id='submit' value='CENTRES D INTERET'></a>
-                <a href ="me_contacter.html"><input type="submit" id='submit' value='ME CONTACTER'></a>           
-            </nav>
-            <h1>FORMATIONS</h1> 
-        </header>
-    </body>
+        <nav>
+            <a href ="index.html"><img src="images/homes.png" width="34" height="34" alt="home logo"/></a>
+            <a href ="experiences.html"><img src="images/experiences.png" width="35" height="35" alt="experiences logo"/></a>
+            <a href ="formations.html"><img src="images/formations.png" width="35" height="35" alt="formations logo"/></a>
+            <a href ="competences.html"><img src="images/competences.svg" width="35" height="35" alt="competences logo"/></a>
+            <a href ="projets.html"><img src="images/projets.png" width="35" height="35" alt="projets logo"/></a>
+            <a href ="centres_d_interet.html"><img src="images/interets.png" width="35" height="35" alt="interets logo"/></a>
+        </nav>
+        <main>
+            <aside class="gauche">  
+                <header class="me">
+                    <img src="images/photo_ID.jpg" width="135" height="170"alt="Photo de Diane" /><br />
+                    <p>Diane de Dieuleveult </p>
+                </header>
+                <p> 
+                    <em> 21 ans <br/>
+                    Permis B <br/>
+                    75 000  Paris </em>
+                </p>
+            </aside>
 
-    <main>
-        <ul>
-            <img src="images/ece.png" class="mon_image" width="125" height="60"alt="Logo ECE"/>
-            <li> <h3>ECE : ECOLE D’INGENIEUR • PARIS 15 • EN COURS </h3>
-                 Deuxième année du cycle ingénieur 
-            </li></br>
-            <img src="images/knu.png" class="mon_image" width="110" height="110"alt="Logo KNU" />
-            <li> 
-                <h3>ECE : ECOLE D’INGENIEUR • COREE DU SUD• FEVRIER-MARS 2021</h3>
-                Semestre internationnal à Kyungpook National University 
-            </li></br>
-            <img src="images/jda.jpg" class="mon_image" width="90" height="90"alt="Logo JDA" />
-            <li> 
-                <h3>CLASSES PREPARATOIRES AUX GRANDES ECOLES • LYCEE JEANNE D’ALBRET, SAINT-GERMAIN-EN-LAYE • 2018-2020</h3>
-                Spécialité MPSI : Mathématiques, Physique, Sciences de l’ingénieur </br>
-                Puis PSI : Physique, Sciences de l’ingénieur 
-            </li></br>
-            <img src="images/evariste.jpg" class="mon_image" width="115" height="70"alt="Logo Evariste" />
-            <li> 
-                <h3>BACCALAUREAT SCIENTIFIQUE• LYCEE EVARISTE GALOIS, SARTROUVILLE • 2018 </h3>
-                Spécialité : Mathématiques
-            </li>
-        </ul>
-    </main>
+            <article class="titre">
+                <header>
+                    <h1>FORMATIONS</h1> 
+                </header>
+                
+                <ul>
+                    <article class="formations">
+                        <img src="images/ece.png" width="100" height="55"alt="Logo ECE"/>
+                        <li> <h3>ECE : ECOLE D’INGENIEUR • PARIS 15 • EN COURS </h3>
+                               <p> Deuxième année du cycle ingénieur </p>
+                        </li>
+                    </article>
+                    <article class="formations">
+                        <img src="images/knu.png" width="100" height="105"alt="Logo KNU" />
+                        <li> 
+                            <h3>ECE : ECOLE D’INGENIEUR • COREE DU SUD• FEVRIER-MARS 2021</h3>
+                            <p>Semestre internationnal à Kyungpook National University</p>
+                        </li>
+                    </article>
+                    <article class="formations">
+                        <img src="images/jda.jpg" width="100" height="85"alt="Logo JDA" />
+                        <li> 
+                            <h3>CLASSES PREPARATOIRES AUX GRANDES ECOLES • LYCEE JEANNE D’ALBRET, </br>SAINT-GERMAIN-EN-LAYE • 2018-2020</h3>
+                            <p>Spécialité MPSI : Mathématiques, Physique, Sciences de l’ingénieur </br>
+                            Puis PSI : Physique, Sciences de l’ingénieur </p>
+                        </li>
+                    </article>
+                    <article class="formations">
+                        <img src="images/evariste.jpg" width="100" height="55"alt="Logo Evariste" />
+                        <li> 
+                            <h3>BACCALAUREAT SCIENTIFIQUE• LYCEE EVARISTE GALOIS, SARTROUVILLE • 2018 </h3>
+                            <p>Spécialité : Mathématiques</p>
+                        </li>
+                    </article>
+                </ul>
+            </article>
+        </main>
+
+        <footer>
+            <article><img src="images/mail.png" width="35" height="35" alt="mail logo"/> <p>diane.dedieuleveult@edu.ece.fr</p></article>
+            <article><img src="images/tel.png" width="35" height="35" alt="tel logo"/> <p>06.87.90.15.20</p></article>
+            <article><a href ="me_contacter.html"><img src="images/contact.png" width="35" height="35" alt="contact logo"/></a><p> Me contacter  </p></article>
+        </footer>
+    </body>
 </html>

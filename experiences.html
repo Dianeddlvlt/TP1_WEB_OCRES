@@ -2,46 +2,75 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
         <title>CV Diane de Dieuleveult</title>
     </head>
 
     <body>
-        <header>
-            <nav>
-                <a href ="index.html"><input type="submit" id='submit' value='MENU'></a>
-                <a href ="experiences.html"><input type="submit" id='submit' value='EXPERIENCES'></a>
-                <a href ="formations.html"><input type="submit" id='submit' value='FORMATION'></a>
-                <a href ="competences.html"><input type="submit" id='submit' value='COMPETENCES'></a> 
-                <a href ="centres_d_interet.html"><input type="submit" id='submit' value='CENTRES D INTERET'></a>
-                <a href ="me_contacter.html"><input type="submit" id='submit' value='ME CONTACTER'></a>           
-            </nav>
-             <h1>EXPERIENCES</h1> 
-        </header>
-    </body>
+        <nav>
+            <a href ="index.html"><img src="images/homes.png" width="34" height="34" alt="home logo"/></a>
+            <a href ="experiences.html"><img src="images/experiences.png" width="35" height="35" alt="experiences logo"/></a>
+            <a href ="formations.html"><img src="images/formations.png" width="35" height="35" alt="formations logo"/></a>
+            <a href ="competences.html"><img src="images/competences.svg" width="35" height="35" alt="competences logo"/></a>
+            <a href ="projets.html"><img src="images/projets.png" width="35" height="35" alt="projets logo"/></a>
+            <a href ="centres_d_interet.html"><img src="images/interets.png" width="35" height="35" alt="interets logo"/></a>
+        </nav>
 
-    <main>
-        <ul>
-            <img src="images/figaret.png" class="mon_image" width="100" height="100"alt="Logo Figaret"/>
-            <li> <h3>STAGE EN ENTREPRISE • FIGARET PARIS • JANVIER-FEVRIER 2021 </h3>
-                <p>Mission : Conseil clients, vente, optimisation de l’espace de vente et gestion des stocks.</br>
-                    Résultats : Analyse financière de l'entreprise, Rapport de stage.
-                 </p>
-            </li></br>
-            <img src="images/aviva.png" class="mon_image" width="100" height="90"alt="Logo Aviva" />
-            <li> 
-                <h3>MISSION INTERIMAIRE • AVIVA (ASSURANCES) • JUILLET 2018/2019 </h3>
-                <p>ETI : entre 1000 et 1999 salariés.</br> 
-                    Mission : Analyse des différentes transactions, logistique, traitement des courriers.</br>
-                    Résultats : Encaissements d’environ 500 chèques / jours.
+        <main>
+            <aside class="gauche">  
+                <header class="me">
+                    <img src="images/photo_ID.jpg" width="135" height="170"alt="Photo de Diane" /><br />
+                    <p>Diane de Dieuleveult </p>
+                </header>
+                <p> 
+                    <em> 21 ans <br/>
+                    Permis B <br/>
+                    75 000  Paris </em>
                 </p>
-            </li></br>
-            <img src="images/petitpas.jpg" class="mon_image" width="100" height="100"alt="Logo Petitpas" />
-            <li> 
-                <h3>STAGE D’OBSERVATION • SELLERIE PETITPAS • FEVRIER 2015 </h3>
-                <p>Mission : Conseil clients, gestion des stocks en magasin, vente, accueil clients, optimisation de l’espace de vente. </br>
-                    Résultat : Rapport de stage.
-                </p>
-            </li>
-        </ul>
-    </main>
+            </aside>
+
+            <article class="titre">
+                <header>
+                    <h1>EXPERIENCES</h1> 
+                </header>
+
+                <ul>
+                    <article class="experiences">
+                        <img src="images/figaret.png"width="100" height="100"alt="Logo Figaret"/>
+                        <li> <h3>STAGE EN ENTREPRISE • FIGARET PARIS • JANVIER-FEVRIER 2021 </h3>
+                            <p>Mission : Conseil clients, vente, optimisation de l’espace de vente et gestion des stocks.</br>
+                                Résultats : Analyse financière de l'entreprise, Rapport de stage.
+                            </p>
+                        </li>
+                    </article>
+                    <article class="experiences">
+                        <img src="images/aviva.png"width="100" height="90"alt="Logo Aviva" />
+                        <li> 
+                            <h3>MISSION INTERIMAIRE • AVIVA (ASSURANCES) • JUILLET 2018/2019 </h3>
+                            <p>ETI : entre 1000 et 1999 salariés.</br> 
+                                Mission : Analyse des différentes transactions, logistique, traitement des courriers.</br>
+                                Résultats : Encaissements d’environ 500 chèques / jours.
+                            </p>
+                        </li>
+                    </article>
+                    <article class="experiences">
+                        <img src="images/petitpas.jpg" width="100" height="100"alt="Logo Petitpas"/>
+                        <li> 
+                            <h3>STAGE D'OBSERVATION • SELLERIE PETITPAS • FEVRIER 2015 </h3>
+                            <p>Mission : Conseil clients, gestion des stocks en magasin, vente, accueil clients.</br>
+                                Résultat : Rapport de stage.
+                            </p>
+                        </li>
+                    </article>
+                </ul>
+            </article>
+        </main>
+
+        <footer>
+            <article><img src="images/mail.png" width="35" height="35" alt="mail logo"/> <p>diane.dedieuleveult@edu.ece.fr</p></article>
+            <article><img src="images/tel.png" width="35" height="35" alt="tel logo"/> <p>06.87.90.15.20</p></article>
+            <article><a href ="me_contacter.html"><img src="images/contact.png" width="35" height="35" alt="contact logo"/></a><p> Me contacter  </p></article>
+        </footer>
+    </body>
 </html>
+

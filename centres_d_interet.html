@@ -2,59 +2,61 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
         <title>CV Diane de Dieuleveult</title>
     </head>
 
     <body>
-        <header>
-            <nav>
-                <a href ="index.html"><input type="submit" id='submit' value='MENU'></a>
-                <a href ="experiences.html"><input type="submit" id='submit' value='EXPERIENCES'></a>
-                <a href ="formations.html"><input type="submit" id='submit' value='FORMATION'></a>
-                <a href ="competences.html"><input type="submit" id='submit' value='COMPETENCES'></a> 
-                <a href ="centres_d_interet.html"><input type="submit" id='submit' value='CENTRES D INTERET'></a>
-                <a href ="me_contacter.html"><input type="submit" id='submit' value='ME CONTACTER'></a>           
-            </nav>
-             <h1>CENTRES D'INTERET</h1>
-         </header>
+        <nav>
+            <a href ="index.html"><img src="images/homes.png" width="34" height="34" alt="home logo"/></a>
+            <a href ="experiences.html"><img src="images/experiences.png" width="35" height="35" alt="experiences logo"/></a>
+            <a href ="formations.html"><img src="images/formations.png" width="35" height="35" alt="formations logo"/></a>
+            <a href ="competences.html"><img src="images/competences.svg" width="35" height="35" alt="competences logo"/></a>
+            <a href ="projets.html"><img src="images/projets.png" width="35" height="35" alt="projets logo"/></a>
+            <a href ="centres_d_interet.html"><img src="images/interets.png" width="35" height="35" alt="interets logo"/></a>
+        </nav>
+
+        <main>
+            <aside class="gauche">  
+                <header class="me">
+                    <img src="images/photo_ID.jpg" width="135" height="170"alt="Photo de Diane" /><br />
+                    <p>Diane de Dieuleveult </p>
+                </header>
+                <p> 
+                    <em> 21 ans <br/>
+                    Permis B <br/>
+                    75 000  Paris </em>
+                </p>
+            </aside>
+            <article class="titre">
+                <header>
+                    <h1>CENTRES D'INTERET</h1> 
+                </header>
+                <article class="formations">
+                    <header>
+                        <h3>Voyages :</h3>
+                    </header>
+                    <img src="images/voyages.JPG" width="700" height="270"alt="carte voyages" >
+                </article>
+                
+                <article class="formations">
+                    <header>
+                        <h3>Sportifs :</h3>
+                    </header>
+                    <ul>
+                        <li> Participation aux Championnats de France d'Equitation en Complet</li>
+                        <li> Running, courses de 10 km</li>
+                        <li> Bateau : permis </li>
+                    </ul>
+                </article>
+                
+            </article>
+        </main>           
+        <footer>
+            <article><img src="images/mail.png" width="35" height="35" alt="mail logo"/> <p>diane.dedieuleveult@edu.ece.fr</p></article>
+            <article><img src="images/tel.png" width="35" height="35" alt="tel logo"/> <p>06.87.90.15.20</p></article>
+            <article><a href ="me_contacter.html"><img src="images/contact.png" width="35" height="35" alt="contact logo"/></a><p> Me contacter  </p></article>
+        </footer>
     </body>
-
-    <main>
-        <article>
-            <header>
-                <h3>Sportifs</h3>
-            </header>
-            <ul>
-                <li> Participation aux Championnats de France d'Equitation en Complet</li>
-                <li> Running, courses de 10 km</li>
-                <li> Bateau : permis </li>
-            </ul>
-        </article>
-
-        <article>
-            <header>
-                <h3>Voyages</h3>
-            </header>
-            <ul>
-                <li> Corée du Sud</li>
-                <li> Costa Rica</li>
-                <li> Etats-Unis</li>
-                <li>Europe</li>
-                <li>Mexique</li>
-                <li>Maghreb</li>
-            </ul>
-        </article>
-
-        <article>
-            <header>
-                <h3>Culturels</h3>
-            </header>
-            <ul>
-                <li> Piano</li>
-                <li> Théâtre</li>
-                <li> Expositions</li>
-                <li>Cinéma</li>
-            </ul>
-        </article>
-    </main>
+        
 </html>

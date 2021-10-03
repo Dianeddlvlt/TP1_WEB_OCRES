@@ -1,0 +1,156 @@
+body
+{
+    background-color: white;
+
+}
+.right
+{
+    width: 100%;
+}
+main{
+    display: flex;
+}
+nav
+{
+    background-color:#F4D8BB;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -18px;
+}
+
+nav img
+{
+    margin:5px;
+}
+
+.gauche 
+{
+    border-right:1px solid grey;
+    width: 250px;
+    height: 500px;
+    text-align: center;
+
+}
+
+.me
+{
+    padding-top:60px;
+    padding-bottom: 20px;
+}
+
+.gauche p
+{
+    line-height: 30px;
+}
+
+.titre h1{
+    text-align: center;
+}
+
+.annonce
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border:1px solid black;
+}
+
+.experiences 
+{
+    display: flex;
+    text-align: left;
+}
+
+.experiences li{
+    margin-left: 30px;
+}
+
+.formations
+{
+    display:flex;
+    text-align: left;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.formations li{
+    margin-left: 60px;
+}
+
+.conteneur
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 50px;
+    
+}
+
+.langues header
+{
+    margin-left: 60px;
+}
+
+figure { 
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0; 
+}
+
+.competences
+{
+    display: table;
+}
+
+.competences figcaption {
+    display: table-caption;
+    caption-side: top;
+    }
+
+.contact
+{
+    margin-left: 70px;
+}
+
+.projets
+{
+    margin-left: 50px;
+}
+
+
+footer
+{
+    height: 60px;
+    background-color: #F4D8BB;
+    display: flex;
+    flex-direction: vertical;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer article
+{
+    display: flex;
+    align-items: center;
+}
+
+footer article p{
+    margin-left: 10px;
+}
+
+.mon_image
+{
+    width: 266px;
+    height: 176px;
+    transition:1s;
+}
+.mon_image:hover
+{
+    width: 400px;
+    height: 310px;
+}
